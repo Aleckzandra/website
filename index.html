@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ningning Cosmetics</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="home">
@@ -36,7 +37,7 @@
     </div>
     <div class="products">
         <div class="products-title">
-            <p>Products</p>
+            <p>Best Selling Products</p>
         </div>
         <div class="grid-products">
             <div class="space"></div>
@@ -71,18 +72,43 @@
         </div>
     </div>
     <div id="contact" class="contact">
-        <div class="contact-info">
-            <h2>Contact Us</h2>
-            <h3>Mailing Address</h3>
-            <p>Manila, Philippines</p>
-            <h3>Mobile Number</h3>
-            <p>0917 186 8168</p>
-            <h3>Email Address</h3>
-            <p>ningningcosmetics@gmail.com</p>
-        </div>
-        <div class="contact-image">
-            <img src="images/girl2.jpg" alt="">
-        </div>
+        <!--Contact Section-->
+<form>
+    <div class="Name">
+      <h1>Connect with us</h1>
+      <p>We'd love to hear from you!</p>
     </div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+    
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br>
+    
+      <button type="submit" onclick="alertFunction()">Submit</button>
+    
+    </form>
+    </div>
+    <!--Footer Section-->
+    <footer>
+        <div class="footer-content">
+            <h3>Ningning Cosmetics</h3>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/NingningCosmeticsPH"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/explore"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://shopee.ph/ningningcosmetics?categoryId=100630&entryPoint=ShopByPDP&itemId=21668900172"><i class="fa-solid fa-cart-shopping"></i></i></a></li>  
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 Ningning Cosmetics. designed by <span>BSIT</span></p>
+        </div>
+    </footer>
+    
+    <script>function alertFunction() {
+        alert("Your message has been sent!");
+      }</script>
 </body>
 </html>
