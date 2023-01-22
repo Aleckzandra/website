@@ -79,7 +79,7 @@ body{
     color: #60330B;
     padding-top: 30px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 .grid-products{
     margin-top: 20px;
@@ -150,33 +150,141 @@ body{
     line-height: 28px;
 }
 .contact{
-    padding-bottom: 100px;
-    padding-top: 100px;
-    display: grid;
-    grid-template-columns: 1fr;
     background-color: #FFDEB5;
 }
-.contact-image img{
-    display: none;
-}
-.contact-info {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-}
-.contact-info h2{
-    font-size: 80px;
-    color: #60330B;
+
+/*CONTACT FORM*/
+.Name {
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
     
-}
-.contact-info h3{
-    font-size: 30px;
-    color: #60330B;
-    margin-top: 20px;
-}
-.contact-info p{
+    }
+    .Name p {
     font-size: 20px;
-}
+    }
+    .Name h1{
+        color: #60330b;
+        font-family: 'abhaya libre';
+    }
+    
+    form {
+        width: 600px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    
+    }
+    label {
+        font-size: 20px;
+        display: block;
+        margin-bottom: 10px;
+      }
+      input, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        
+      }
+      
+      button[type="submit"] {
+        background-color: #181614;
+        color: white;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+        border-radius: 15px;
+        margin-left: 2px;
+        font-size: 18px; 
+        font-weight: bold; 
+        box-shadow: 2px 2px 3px rgb(39, 35, 35);
+        transition-duration: all 0.2s; 
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #e7a57e;
+      }
+      textarea {
+        height:150px;
+    }
+    
+    
+    
+    
+    /*FOOTER*/
+    footer{
+    
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #111;
+        height: auto;
+        width: 100%;
+        padding-top: 40px;
+        color: #fff;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .footer-content p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .socials li{
+        margin: 0 10px;
+    }
+    .socials a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .socials a i{
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    
+    }
+    .socials a:hover i{
+        color: aqua;
+    }
+    
+    .footer-bottom{
+        background: #000;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .footer-bottom p{
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+    .footer-bottom span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    }
+    
+
 @media only screen and (min-width: 992px){
 .navbar{
     column-gap: 30%;
@@ -217,7 +325,7 @@ body{
     width: 400px;
 }
 .products-title p{
-    font-size: 80px;
+    font-size: 60px;
 }
 .first-pic p{
     font-size: 25px;
